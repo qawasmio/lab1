@@ -1,0 +1,43 @@
+--2022-12-04 03:28:11--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/omar/labs/lab1/inputs/2020.csv’
+
+     0K .......... .......... .......... .......... ..........  152K
+    50K .......... .......... .......... .......... ..........  266K
+   100K .......... .......... .......                          29.5M=0.5s
+
+2022-12-04 03:28:16 (247 KB/s) - ‘/home/omar/labs/lab1/inputs/2020.csv’ saved [130712]
+
+--2022-12-04 03:28:16--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/omar/labs/lab1/inputs/2021.csv’
+
+     0K .......... .......... .......... .......... ..........  150K
+    50K .......... .......... .......... .......... ..........  313K
+   100K .......... .......... ...                              24.0M=0.5s
+
+2022-12-04 03:28:21 (251 KB/s) - ‘/home/omar/labs/lab1/inputs/2021.csv’ saved [126714]
+
+--2022-12-04 03:28:21--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/omar/labs/lab1/inputs/2022.csv’
+
+     0K .......... .......... .......... .......... ..........  154K
+    50K .......... .......... .......... .......... ..........  303K
+   100K .......... .......... ...                               171M=0.5s
+
+2022-12-04 03:28:25 (252 KB/s) - ‘/home/omar/labs/lab1/inputs/2022.csv’ saved [126636]
+
+./lab1.sh: line 8: RC1: command not found
+./lab1.sh: line 9: [: missing `]'
+Python Script Run
+Done Python Script Run
